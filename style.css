@@ -1,101 +1,20 @@
-﻿* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 40px;
+    line-height: 1.6;
 }
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #1f4068, #162447);
-    color: #e4e4e4;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
+h1 {
+    color: #2c3e50;
 }
-header {
-    text-align: center;
-    padding: 30px;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 12px;
-    margin-bottom: 20px;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+p {
+    color: #555555;
 }
-header h1 {
-    font-size: 2.5rem;
-    color: #e43f5a;
-    margin-bottom: 10px;
-}
-header p {
-    font-size: 1.2rem;
-    color: #a7a9be;
-}
-.container {
-    flex: 1;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-.card {
-    background: rgba(255, 255, 255, 0.07);
-    padding: 25px 35px;
-    border-radius: 12px;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-h2 {
-    color: #00adb5;
-    margin-bottom: 15px;
-    font-size: 1.5rem;
-}
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 15px;
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    overflow: hidden;
-}
-th, td {
-    padding: 12px 15px;
-    text-align: left;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-th {
-    background-color: rgba(0, 173, 181, 0.2);
-    color: #00adb5;
-    font-weight: 600;
-}
-tr:hover {
-    background-color: rgba(255, 255, 255, 0.03);
-}
-.menu {
-    display: flex;
-    gap: 15px;
-    margin-top: 20px;
-}
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #e43f5a;
-    color: white;
+a {
+    color: #3498db;
     text-decoration: none;
-    border-radius: 6px;
-    font-weight: 600;
-    transition: background 0.3s, transform 0.2s;
 }
-.btn:hover {
-    background-color: #d22842;
-    transform: translateY(-2px);
-}
-footer {
-    text-align: center;
-    padding: 20px;
-    color: #8f90a0;
-    font-size: 0.9rem;
-    margin-top: 20px;
+a:hover {
+    text-decoration: underline;
 }
