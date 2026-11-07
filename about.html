@@ -2,14 +2,51 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>О проекте - Семинар по CI/CD</title>
+    <title>ℹ️ О проекте</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card">
-        <h1>О странице</h1>
-        <p>Этот проект демонстрирует непрерывную интеграцию и автоматическое развертывание статического контента с помощью GitHub Actions и GitHub Pages.</p>
-        <a href="index.html">На главную</a>
+    <header>
+        <h1>💡 Информация о системе</h1>
+        <p>Всё о возможностях автоматического развертывания</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>🛠️ Архитектура CI/CD пайплайна</h2>
+            <p>Наша система построена на базе облачных раннеров GitHub. При каждом изменении исходного кода (команда <code>git push</code>) запускается сценарий сборки, который проверяет файлы и публикует их в интернете через GitHub Pages. 🌐</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Компонент</th>
+                        <th>Назначение</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>📂 <b>index.html / about.html</b></td>
+                        <td>Интерфейс пользователя и контент сайта</td>
+                    </tr>
+                    <tr>
+                        <td>🎨 <b>style.css</b></td>
+                        <td>Современное адаптивное оформление на всю ширину</td>
+                    </tr>
+                    <tr>
+                        <td>⚙️ <b>deploy.yml</b></td>
+                        <td>Скрипт автоматического деплоя в GitHub Actions</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="menu">
+                <a href="index.html" class="btn">🏠 На главную</a>
+            </div>
+        </div>
     </div>
+
+    <footer>
+        <p>© 2026 Автоматизированный учебный стенд 🚀</p>
+    </footer>
 </body>
 </html>
